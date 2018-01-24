@@ -14099,6 +14099,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
 </package>
+<package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -15354,6 +15368,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="2.54" layer="94">Revision By: </text>
 </symbol>
+<symbol name="FIDUCIAL">
+<description>&lt;h3&gt;Fiducial&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -15545,6 +15568,25 @@ Standard 8.5x11 US Letter frame</description>
 </gates>
 <devices>
 <device name="" package="REVISION">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;h3&gt;Fiducial Alignment Points&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21511,6 +21553,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -21596,7 +21642,7 @@ Open: SPI</text>
 <instance part="R2" gate="G$1" x="182.88" y="132.08" rot="R90"/>
 <instance part="C1" gate="G$1" x="104.14" y="114.3"/>
 <instance part="U$1" gate="G$1" x="223.52" y="53.34"/>
-<instance part="JP3" gate="G$1" x="243.84" y="30.48"/>
+<instance part="JP3" gate="G$1" x="241.3" y="30.48"/>
 <instance part="JP4" gate="G$1" x="238.76" y="30.48"/>
 <instance part="J1" gate="G$1" x="96.52" y="27.94" rot="MR0"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -21632,6 +21678,10 @@ Open: SPI</text>
 <instance part="LOGO1" gate="G$1" x="149.86" y="38.1"/>
 <instance part="LOGO2" gate="G$1" x="182.3212" y="50.6984"/>
 <instance part="LOGO3" gate="G$1" x="148.6154" y="6.8072"/>
+<instance part="FD1" gate="G$1" x="238.76" y="25.4"/>
+<instance part="FD2" gate="G$1" x="238.76" y="27.94"/>
+<instance part="FD3" gate="G$1" x="241.3" y="27.94"/>
+<instance part="FD4" gate="G$1" x="241.3" y="25.4"/>
 </instances>
 <busses>
 </busses>
