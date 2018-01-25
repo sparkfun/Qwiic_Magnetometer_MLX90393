@@ -21416,22 +21416,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="51"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="51"/>
-<smd name="1" x="-1.9" y="0.975" dx="1.1" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-1.9" y="0.325" dx="1.1" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-1.9" y="-0.325" dx="1.1" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-1.9" y="-0.975" dx="1.1" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-0.975" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-0.325" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="0.325" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0.975" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="1.9" y="-0.975" dx="1.1" dy="0.3" layer="1"/>
-<smd name="10" x="1.9" y="-0.325" dx="1.1" dy="0.3" layer="1"/>
-<smd name="11" x="1.9" y="0.325" dx="1.1" dy="0.3" layer="1"/>
-<smd name="12" x="1.9" y="0.975" dx="1.1" dy="0.3" layer="1"/>
-<smd name="13" x="0.975" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270"/>
-<smd name="14" x="0.325" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270"/>
-<smd name="15" x="-0.325" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270"/>
-<smd name="16" x="-0.975" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270"/>
+<smd name="1" x="-1.9" y="0.975" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="2" x="-1.9" y="0.325" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="3" x="-1.9" y="-0.325" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="4" x="-1.9" y="-0.975" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="-0.975" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="-0.325" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="7" x="0.325" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="0.975" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="1.9" y="-0.975" dx="1.1" dy="0.3" layer="1" cream="no"/>
+<smd name="10" x="1.9" y="-0.325" dx="1.1" dy="0.3" layer="1" cream="no"/>
+<smd name="11" x="1.9" y="0.325" dx="1.1" dy="0.3" layer="1" cream="no"/>
+<smd name="12" x="1.9" y="0.975" dx="1.1" dy="0.3" layer="1" cream="no"/>
+<smd name="13" x="0.975" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="14" x="0.325" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="15" x="-0.325" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="16" x="-0.975" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
 <text x="-1.4" y="2.8" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.6" y="-3.5" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <smd name="CTR" x="0" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
@@ -21449,6 +21449,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2" y1="-2" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="2" y1="-2" x2="2" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="2" y1="1.5" x2="2" y2="2" width="0.2032" layer="21"/>
+<rectangle x1="-2.34" y1="-0.445" x2="-1.46" y2="-0.205" layer="31"/>
+<rectangle x1="-2.34" y1="0.205" x2="-1.46" y2="0.445" layer="31"/>
+<rectangle x1="-2.34" y1="0.855" x2="-1.46" y2="1.095" layer="31"/>
+<rectangle x1="-2.34" y1="-1.095" x2="-1.46" y2="-0.855" layer="31"/>
+<rectangle x1="-1.415" y1="-2.02" x2="-0.535" y2="-1.78" layer="31" rot="R90"/>
+<rectangle x1="-0.765" y1="-2.02" x2="0.115" y2="-1.78" layer="31" rot="R90"/>
+<rectangle x1="-0.115" y1="-2.02" x2="0.765" y2="-1.78" layer="31" rot="R90"/>
+<rectangle x1="0.535" y1="-2.02" x2="1.415" y2="-1.78" layer="31" rot="R90"/>
+<rectangle x1="1.46" y1="-1.095" x2="2.34" y2="-0.855" layer="31" rot="R180"/>
+<rectangle x1="1.46" y1="-0.445" x2="2.34" y2="-0.205" layer="31" rot="R180"/>
+<rectangle x1="1.46" y1="0.205" x2="2.34" y2="0.445" layer="31" rot="R180"/>
+<rectangle x1="1.46" y1="0.855" x2="2.34" y2="1.095" layer="31" rot="R180"/>
+<rectangle x1="0.535" y1="1.78" x2="1.415" y2="2.02" layer="31" rot="R270"/>
+<rectangle x1="-0.115" y1="1.78" x2="0.765" y2="2.02" layer="31" rot="R270"/>
+<rectangle x1="-0.765" y1="1.78" x2="0.115" y2="2.02" layer="31" rot="R270"/>
+<rectangle x1="-1.415" y1="1.78" x2="-0.535" y2="2.02" layer="31" rot="R270"/>
 </package>
 </packages>
 <symbols>
