@@ -21578,7 +21578,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="203.2" y="113.538" size="1.778" layer="97" font="vector">Address selection jumpers</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v10</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v01</text>
 <text x="165.608" y="11.176" size="2.54" layer="94">R. Reynolds</text>
 <text x="5.08" y="177.8" size="3.81" layer="97" font="vector">MLX90393 Breakout</text>
 <text x="178.308" y="146.558" size="1.778" layer="97" font="vector" align="top-left">SJ2 pulls up the SCK and SDA lines

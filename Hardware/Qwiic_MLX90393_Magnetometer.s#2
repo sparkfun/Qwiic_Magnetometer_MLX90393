@@ -21577,13 +21577,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="203.2" y="113.538" size="1.778" layer="97">Address selection jumpers</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v01</text>
+<text x="203.2" y="113.538" size="1.778" layer="97" font="vector">Address selection jumpers</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v10</text>
 <text x="165.608" y="11.176" size="2.54" layer="94">R. Reynolds</text>
-<text x="5.08" y="177.8" size="3.81" layer="97">MLX90393 Breakout</text>
-<text x="178.308" y="146.558" size="1.778" layer="97" align="top-left">SJ2 pulls up the SCK and SDA lines
+<text x="5.08" y="177.8" size="3.81" layer="97" font="vector">MLX90393 Breakout</text>
+<text x="178.308" y="146.558" size="1.778" layer="97" font="vector" align="top-left">SJ2 pulls up the SCK and SDA lines
 for I2C operation</text>
-<text x="5.08" y="175.26" size="2.032" layer="97" align="top-left">MODES:
+<text x="5.08" y="175.26" size="2.032" layer="97" font="vector" align="top-left">MODES:
   I2C:
     Leave the copper-connected jumpers
     SJ1 and SJ2 as default.
@@ -21592,13 +21592,13 @@ for I2C operation</text>
 </text>
 <wire x1="0" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="66.04" x2="147.32" y2="35.56" width="0.1524" layer="97" style="longdash"/>
-<text x="5.08" y="132.08" size="3.175" layer="97">Magnetometer Circuitry</text>
-<text x="5.08" y="58.42" size="3.175" layer="97">User Ports</text>
-<text x="5.08" y="55.88" size="2.032" layer="97" align="top-left">VCC must be 2.2-3.6V</text>
+<text x="5.08" y="132.08" size="3.175" layer="97" font="vector">Magnetometer Circuitry</text>
+<text x="5.08" y="58.42" size="3.175" layer="97" font="vector">User Ports</text>
+<text x="111.76" y="137.16" size="2.032" layer="97" font="vector" align="top-left">VCC must be 2.2-3.6V</text>
 <wire x1="147.32" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="97" style="longdash"/>
 <wire x1="0" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="97" style="longdash"/>
 <wire x1="91.44" y1="185.42" x2="91.44" y2="139.7" width="0.1524" layer="97" style="longdash"/>
-<text x="128.016" y="140.716" size="1.778" layer="97">SJ1 Controls I2C/SPI
+<text x="128.016" y="140.716" size="1.778" layer="97" font="vector">SJ1 Controls I2C/SPI
 Closed (Default): I2C
 Open: SPI</text>
 <text x="85.344" y="18.288" size="2.032" layer="97" align="top-left">I2C Port</text>
@@ -21616,13 +21616,13 @@ Open: SPI</text>
 <wire x1="218.44" y1="129.54" x2="233.68" y2="129.54" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="129.54" x2="208.28" y2="129.54" width="0.2032" layer="97"/>
 <wire x1="208.28" y1="129.54" x2="208.28" y2="132.08" width="0.2032" layer="97"/>
-<text x="209.804" y="130.048" size="1.27" layer="97">A1</text>
-<text x="214.884" y="130.048" size="1.27" layer="97">A0</text>
-<text x="219.964" y="130.048" size="1.27" layer="97">I2C Address</text>
-<text x="222.25" y="127.508" size="1.27" layer="97">0001100</text>
-<text x="222.25" y="124.968" size="1.27" layer="97">0001101</text>
-<text x="222.25" y="122.428" size="1.27" layer="97">0001110</text>
-<text x="222.25" y="120.142" size="1.27" layer="97">0001111</text>
+<text x="209.804" y="130.048" size="1.27" layer="97" font="vector">A1</text>
+<text x="214.884" y="130.048" size="1.27" layer="97" font="vector">A0</text>
+<text x="219.964" y="130.048" size="1.27" layer="97" font="vector">I2C Address</text>
+<text x="222.25" y="127.508" size="1.27" layer="97" font="vector">0001100</text>
+<text x="222.25" y="124.968" size="1.27" layer="97" font="vector">0001101</text>
+<text x="222.25" y="122.428" size="1.27" layer="97" font="vector">0001110</text>
+<text x="222.25" y="120.142" size="1.27" layer="97" font="vector">0001111</text>
 <wire x1="233.68" y1="127" x2="208.28" y2="127" width="0.2032" layer="97"/>
 <wire x1="208.28" y1="127" x2="208.28" y2="124.46" width="0.2032" layer="97"/>
 <wire x1="208.28" y1="124.46" x2="233.68" y2="124.46" width="0.2032" layer="97"/>
@@ -21636,20 +21636,20 @@ Open: SPI</text>
 <wire x1="208.28" y1="124.46" x2="208.28" y2="121.92" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="129.54" x2="213.36" y2="119.38" width="0.2032" layer="97"/>
 <wire x1="218.44" y1="129.54" x2="218.44" y2="119.38" width="0.2032" layer="97"/>
-<text x="209.042" y="127.508" size="1.27" layer="97">GND</text>
-<text x="214.122" y="127.508" size="1.27" layer="97">GND</text>
-<text x="209.042" y="124.968" size="1.27" layer="97">GND</text>
-<text x="214.122" y="122.428" size="1.27" layer="97">GND</text>
-<text x="214.122" y="124.968" size="1.27" layer="97">VDD</text>
-<text x="209.042" y="122.428" size="1.27" layer="97">VDD</text>
-<text x="209.042" y="119.888" size="1.27" layer="97">VDD</text>
-<text x="214.122" y="119.888" size="1.27" layer="97">VDD</text>
-<text x="8.89" y="158.75" size="2.032" layer="97" align="top-left">SPI 4-WIRE:
+<text x="209.042" y="127.508" size="1.27" layer="97" font="vector">GND</text>
+<text x="214.122" y="127.508" size="1.27" layer="97" font="vector">GND</text>
+<text x="209.042" y="124.968" size="1.27" layer="97" font="vector">GND</text>
+<text x="214.122" y="122.428" size="1.27" layer="97" font="vector">GND</text>
+<text x="214.122" y="124.968" size="1.27" layer="97" font="vector">VDD</text>
+<text x="209.042" y="122.428" size="1.27" layer="97" font="vector">VDD</text>
+<text x="209.042" y="119.888" size="1.27" layer="97" font="vector">VDD</text>
+<text x="214.122" y="119.888" size="1.27" layer="97" font="vector">VDD</text>
+<text x="8.89" y="158.75" size="2.032" layer="97" font="vector" align="top-left">SPI 4-WIRE:
   Jumpers SJ2 can be opened to 
   remove pull-ups on the SPI lines.
   SJ1 must be open for SPI operation.</text>
-<text x="205.994" y="133.35" size="1.778" layer="97">I2C Addressing Table</text>
-<text x="199.898" y="81.788" size="1.778" layer="97">Default 7-bit I2C Adr: 0x0C</text>
+<text x="205.994" y="133.35" size="1.778" layer="97" font="vector">I2C Addressing Table</text>
+<text x="199.898" y="81.788" size="1.778" layer="97" font="vector">Default 7-bit I2C Adr: 0x0C</text>
 <text x="168.2496" y="6.731" size="2.54" layer="94">A. England</text>
 </plain>
 <instances>
