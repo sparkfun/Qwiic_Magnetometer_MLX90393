@@ -21579,7 +21579,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="203.2" y="113.538" size="1.778" layer="97" font="vector">Address selection jumpers</text>
 <text x="236.22" y="7.62" size="2.54" layer="94">v01</text>
-<text x="165.608" y="11.176" size="2.54" layer="94">R. Reynolds</text>
+<text x="170.688" y="11.176" size="2.54" layer="94">R. Reynolds</text>
 <text x="5.08" y="177.8" size="3.81" layer="97" font="vector">MLX90393 Breakout</text>
 <text x="178.308" y="146.558" size="1.778" layer="97" font="vector" align="top-left">SJ2 pulls up the SCK and SDA lines
 for I2C operation</text>
@@ -21650,7 +21650,7 @@ Open: SPI</text>
   SJ1 must be open for SPI operation.</text>
 <text x="205.994" y="133.35" size="1.778" layer="97" font="vector">I2C Addressing Table</text>
 <text x="199.898" y="81.788" size="1.778" layer="97" font="vector">Default 7-bit I2C Adr: 0x0C</text>
-<text x="168.2496" y="6.731" size="2.54" layer="94">A. England</text>
+<text x="175.8696" y="6.731" size="2.54" layer="94">A. England</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="134.62" y="114.3"/>
