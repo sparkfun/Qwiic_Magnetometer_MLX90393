@@ -21410,61 +21410,62 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="HVQFN-16">
-<circle x="-2.5921" y="1.6234" radius="0.1905" width="0" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
-<wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="51"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
-<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="51"/>
-<smd name="1" x="-1.9" y="0.975" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="2" x="-1.9" y="0.325" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="3" x="-1.9" y="-0.325" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="4" x="-1.9" y="-0.975" dx="1.1" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="5" x="-0.975" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="6" x="-0.325" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="7" x="0.325" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="8" x="0.975" y="-1.9" dx="1.1" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="9" x="1.9" y="-0.975" dx="1.1" dy="0.3" layer="1" cream="no"/>
-<smd name="10" x="1.9" y="-0.325" dx="1.1" dy="0.3" layer="1" cream="no"/>
-<smd name="11" x="1.9" y="0.325" dx="1.1" dy="0.3" layer="1" cream="no"/>
-<smd name="12" x="1.9" y="0.975" dx="1.1" dy="0.3" layer="1" cream="no"/>
-<smd name="13" x="0.975" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="14" x="0.325" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="15" x="-0.325" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="16" x="-0.975" y="1.9" dx="1.1" dy="0.3" layer="1" rot="R270" cream="no"/>
-<text x="-1.4" y="2.8" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.6" y="-3.5" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<smd name="CTR" x="0" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
-<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="1" rot="R90"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="29" rot="R90"/>
-<rectangle x1="-0.6" y1="-0.6" x2="-0.3" y2="-0.3" layer="31" rot="R90"/>
-<rectangle x1="-0.6" y1="0.4" x2="-0.3" y2="0.7" layer="31" rot="R90"/>
-<rectangle x1="0.4" y1="0.4" x2="0.7" y2="0.7" layer="31" rot="R90"/>
-<rectangle x1="0.4" y1="-0.6" x2="0.7" y2="-0.3" layer="31" rot="R90"/>
-<wire x1="-2" y1="1.5" x2="-2" y2="2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="2" x2="-1.4" y2="2" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="2" x2="2" y2="2" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-2" x2="2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-2" x2="-1.4" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="2" width="0.2032" layer="21"/>
-<rectangle x1="-2.34" y1="-0.445" x2="-1.46" y2="-0.205" layer="31"/>
-<rectangle x1="-2.34" y1="0.205" x2="-1.46" y2="0.445" layer="31"/>
-<rectangle x1="-2.34" y1="0.855" x2="-1.46" y2="1.095" layer="31"/>
-<rectangle x1="-2.34" y1="-1.095" x2="-1.46" y2="-0.855" layer="31"/>
-<rectangle x1="-1.415" y1="-2.02" x2="-0.535" y2="-1.78" layer="31" rot="R90"/>
-<rectangle x1="-0.765" y1="-2.02" x2="0.115" y2="-1.78" layer="31" rot="R90"/>
-<rectangle x1="-0.115" y1="-2.02" x2="0.765" y2="-1.78" layer="31" rot="R90"/>
-<rectangle x1="0.535" y1="-2.02" x2="1.415" y2="-1.78" layer="31" rot="R90"/>
-<rectangle x1="1.46" y1="-1.095" x2="2.34" y2="-0.855" layer="31" rot="R180"/>
-<rectangle x1="1.46" y1="-0.445" x2="2.34" y2="-0.205" layer="31" rot="R180"/>
-<rectangle x1="1.46" y1="0.205" x2="2.34" y2="0.445" layer="31" rot="R180"/>
-<rectangle x1="1.46" y1="0.855" x2="2.34" y2="1.095" layer="31" rot="R180"/>
-<rectangle x1="0.535" y1="1.78" x2="1.415" y2="2.02" layer="31" rot="R270"/>
-<rectangle x1="-0.115" y1="1.78" x2="0.765" y2="2.02" layer="31" rot="R270"/>
-<rectangle x1="-0.765" y1="1.78" x2="0.115" y2="2.02" layer="31" rot="R270"/>
-<rectangle x1="-1.415" y1="1.78" x2="-0.535" y2="2.02" layer="31" rot="R270"/>
+<package name="QFN-16_WITH_AXIES">
+<description>&lt;h3&gt;QFN-16 - 3.0mm x 3.0mm package for the MLX90393&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 16&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 3.0mm x 3.0mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=file:///C:/Users/andrew.england/Downloads/MLX90393-Datasheet-Melexis%20(1).pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="0.9154" y="0.9126" radius="0.05" width="0.127" layer="51"/>
+<circle x="1.4234" y="1.9921" radius="0.1905" width="0" layer="21"/>
+<circle x="0.208" y="0.5604" radius="0.127" width="0.0508" layer="51"/>
+<circle x="0.208" y="0.5604" radius="0.0254" width="0.0508" layer="51"/>
+<wire x1="1.0649" y1="1.6891" x2="1.7554" y2="1.6891" width="0.127" layer="21"/>
+<wire x1="1.7554" y1="1.6891" x2="1.7554" y2="1.0621" width="0.127" layer="21"/>
+<wire x1="-1.7526" y1="1.6891" x2="-1.7526" y2="1.0621" width="0.127" layer="21"/>
+<wire x1="-1.0621" y1="1.6891" x2="-1.7526" y2="1.6891" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="1.4986" x2="1.5014" y2="1.4986" width="0.127" layer="51"/>
+<wire x1="1.5014" y1="-1.5014" x2="1.5014" y2="1.4986" width="0.127" layer="51"/>
+<wire x1="1.5014" y1="-1.5014" x2="-1.4986" y2="-1.5014" width="0.127" layer="51"/>
+<wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.5014" width="0.127" layer="51"/>
+<wire x1="-1.7526" y1="-1.6919" x2="-1.7526" y2="-1.0649" width="0.127" layer="21"/>
+<wire x1="-1.0621" y1="-1.6919" x2="-1.7526" y2="-1.6919" width="0.127" layer="21"/>
+<wire x1="1.7554" y1="-1.6919" x2="1.7554" y2="-1.0649" width="0.127" layer="21"/>
+<wire x1="1.0649" y1="-1.6919" x2="1.7554" y2="-1.6919" width="0.127" layer="21"/>
+<wire x1="0.346" y1="-0.473" x2="0.092" y2="-0.473" width="0.0508" layer="51"/>
+<wire x1="0.092" y1="-0.473" x2="0.219" y2="-0.6" width="0.0508" layer="51"/>
+<wire x1="0.092" y1="-0.473" x2="0.219" y2="-0.346" width="0.0508" layer="51"/>
+<wire x1="0.2254" y1="-0.0968" x2="0.2254" y2="0.1572" width="0.0508" layer="51"/>
+<wire x1="0.2254" y1="0.1572" x2="0.0984" y2="0.0302" width="0.0508" layer="51"/>
+<wire x1="0.2254" y1="0.1572" x2="0.3524" y2="0.0302" width="0.0508" layer="51"/>
+<smd name="1" x="0.754" y="1.498" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R90"/>
+<smd name="2" x="0.254" y="1.498" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R90"/>
+<smd name="3" x="-0.246" y="1.498" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R90"/>
+<smd name="4" x="-0.746" y="1.498" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R90"/>
+<smd name="5" x="-1.508" y="0.746" dx="0.85" dy="0.3" layer="1" roundness="75"/>
+<smd name="6" x="-1.508" y="0.246" dx="0.85" dy="0.3" layer="1" roundness="75"/>
+<smd name="7" x="-1.508" y="-0.254" dx="0.85" dy="0.3" layer="1" roundness="75"/>
+<smd name="8" x="-1.508" y="-0.754" dx="0.85" dy="0.3" layer="1" roundness="75"/>
+<smd name="9" x="-0.746" y="-1.506" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R270"/>
+<smd name="10" x="-0.246" y="-1.506" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R270"/>
+<smd name="11" x="0.254" y="-1.506" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R270"/>
+<smd name="12" x="0.754" y="-1.506" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R270"/>
+<smd name="13" x="1.496" y="-0.764" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R180"/>
+<smd name="14" x="1.496" y="-0.264" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R180"/>
+<smd name="15" x="1.496" y="0.236" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R180"/>
+<smd name="16" x="1.496" y="0.736" dx="0.85" dy="0.3" layer="1" roundness="75" rot="R180"/>
+<text x="0.0714" y="2.1136" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="0.0214" y="-2.0464" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<text x="-0.3" y="-0.1174" size="0.3048" layer="51" ratio="15">X</text>
+<text x="-0.3" y="-0.6334" size="0.3048" layer="51" ratio="15">Y</text>
+<text x="-0.3" y="0.4" size="0.3048" layer="51" ratio="15">Z</text>
+<smd name="17" x="0" y="0" dx="1.6" dy="1.6" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-0.5" y1="0.3" x2="-0.3" y2="0.5" layer="31"/>
+<rectangle x1="-0.5" y1="-0.5" x2="-0.3" y2="-0.3" layer="31"/>
+<rectangle x1="0.3" y1="-0.5" x2="0.5" y2="-0.3" layer="31"/>
+<rectangle x1="0.3" y1="0.3" x2="0.5" y2="0.5" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -21494,7 +21495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="MLX90393_MAGNETOMETER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HVQFN-16">
+<device name="" package="QFN-16_WITH_AXIES">
 <connects>
 <connect gate="G$1" pin="A0" pad="12"/>
 <connect gate="G$1" pin="A1" pad="11"/>
@@ -21511,7 +21512,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="SEN-13886" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21529,7 +21529,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-Sensors" deviceset="MLX90393_MAGNETOMETER" device="" value=""/>
+<part name="U1" library="SparkFun-Sensors" deviceset="MLX90393_MAGNETOMETER" device="" value="MLX90393_MAGNETOMETER"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>

@@ -21578,7 +21578,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="203.2" y="113.538" size="1.778" layer="97" font="vector">Address selection jumpers</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v01</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v10</text>
 <text x="170.688" y="11.176" size="2.54" layer="94">R. Reynolds</text>
 <text x="5.08" y="177.8" size="3.81" layer="97" font="vector">MLX90393 Breakout</text>
 <text x="178.308" y="146.558" size="1.778" layer="97" font="vector" align="top-left">SJ2 pulls up the SCK and SDA lines
@@ -21619,10 +21619,10 @@ Open: SPI</text>
 <text x="209.804" y="130.048" size="1.27" layer="97" font="vector">A1</text>
 <text x="214.884" y="130.048" size="1.27" layer="97" font="vector">A0</text>
 <text x="219.964" y="130.048" size="1.27" layer="97" font="vector">I2C Address</text>
-<text x="222.25" y="127.508" size="1.27" layer="97" font="vector">0001100</text>
-<text x="222.25" y="124.968" size="1.27" layer="97" font="vector">0001101</text>
-<text x="222.25" y="122.428" size="1.27" layer="97" font="vector">0001110</text>
-<text x="222.25" y="120.142" size="1.27" layer="97" font="vector">0001111</text>
+<text x="223.52" y="127.508" size="1.27" layer="97" font="vector">0x0C</text>
+<text x="223.52" y="124.968" size="1.27" layer="97" font="vector">0x0D</text>
+<text x="223.52" y="122.428" size="1.27" layer="97" font="vector">0x0E</text>
+<text x="223.52" y="119.888" size="1.27" layer="97" font="vector">0x0F</text>
 <wire x1="233.68" y1="127" x2="208.28" y2="127" width="0.2032" layer="97"/>
 <wire x1="208.28" y1="127" x2="208.28" y2="124.46" width="0.2032" layer="97"/>
 <wire x1="208.28" y1="124.46" x2="233.68" y2="124.46" width="0.2032" layer="97"/>
