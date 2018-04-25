@@ -22,15 +22,28 @@
 MLX90393 mlx;
 MLX90393::txyz data; //Create a structure, called data, of four floats (t, x, y, and z)
 
-uint8_t filtering;
-
 void setup()
 {
   Serial.begin(9600);
   Serial.println("MLX90393 Read Example");
   Wire.begin();
-  mlx.begin(); //Assumes I2C jumpers are GND. No DRDY pin used.
+  //Connect to sensor with I2C address jumpers set: A1 = 1, A0 = 0
+  //Use DRDY pin connected to A3
+  //Returns byte containing status bytes
+  byte status = mlx.begin();
+
+  //Report status from configuration
+  Serial.print("Start status: 0x");
+  if(status < 0x10) Serial.print("0"); //Pretty output
+  Serial.println(status, BIN);
+  
+  mlx.setGainSel(1);
+  mlx.setResolution(0, 0, 0); //x, y, z
+  mlx.setOverSampling(0);
   mlx.setDigitalFiltering(0);
+  //See MLX90393.h and .cpp for additional functions including:
+  //set/getOverSample, set/getTemperatureOverSample, set/getDigitalFiltering, set/getResolution
+  //set/getTemperatureCompensation, setOffsets, setWThresholds
 }
 
 void loop()
@@ -45,6 +58,8 @@ void loop()
   Serial.print(data.z);
   Serial.print("] temperature(C)[");
   Serial.print(data.t);
+  //Serial.print("] status[");
+  //Serial.print(status);
   Serial.print("]");
 
   Serial.println();

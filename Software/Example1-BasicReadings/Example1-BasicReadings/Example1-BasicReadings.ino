@@ -26,24 +26,10 @@ void setup()
 {
   Serial.begin(9600);
   Serial.println("MLX90393 Read Example");
-
   Wire.begin();
-  //Connect to sensor with I2C address jumpers set: A1 = 1, A0 = 0
-  //Use DRDY pin connected to A3
-  //Returns byte containing status bytes
-  byte status = mlx.begin(1, 0, A3);
-
-  //Report status from configuration
-  Serial.print("Start status: 0x");
-  if(status < 0x10) Serial.print("0"); //Pretty output
-  Serial.println(status, HEX);
-  
-  mlx.setGainSel(1);
-  mlx.setResolution(0, 0, 0); //x, y, z
+  mlx.begin(); //Assumes I2C jumpers are GND. No DRDY pin used.
+  mlx.setOverSampling(0);
   mlx.setDigitalFiltering(0);
-  //See MLX90393.h and .cpp for additional functions including:
-  //set/getOverSample, set/getTemperatureOverSample, set/getDigitalFiltering, set/getResolution
-  //set/getTemperatureCompensation, setOffsets, setWThresholds
 }
 
 void loop()
