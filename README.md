@@ -17,7 +17,7 @@ Repository Contents
 Documentation
 --------------
 * **[Arduino Library](https://github.com/tedyapo/arduino-MLX90393)** - Arduino library MLX90393 magnetometer sensor.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-magnetometer-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic Magnetometer MLX90393.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-magnetometer-mlx90393-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic Magnetometer MLX90393.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products. 
 
 License Information
